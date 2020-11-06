@@ -1,5 +1,5 @@
 hello world
 
 public class User{
-
+  public int id;
 }

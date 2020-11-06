@@ -2,4 +2,5 @@ hello world
 
 public class User{
   public int id;
+  private String name;
 }

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!--User的sql 映射文件-->
+<!--映射文件的namespace命名空间 和 对应 接口的类全名一致-->
+<mapper namespace="com.xszx.mapper.UserMapper">
+
+   <select id="selectAll" resultType="com.xszx.entity.User">
+        select * from user;
+    </select>
+
+</mapper>
